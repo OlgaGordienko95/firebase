@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="keywords" content="Бижутерия, украшения, натуральные камни, ручная работа" >
+  <meta name="description" content="Украшения ручной работы на любой вкус" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta http-equiv= "content-type" content= "text/html; charset=utf-8" >
+  <title> DREAMER </title>
+  <link href="style1.css" rel="stylesheet" type="text/css" media="screen" >
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCtv4a1pGB5cjBPTwLMIzXjyV6C8N7dUAQ",
+    authDomain: "first-try-d42dd.firebaseapp.com",
+    databaseURL: "https://first-try-d42dd.firebaseio.com",
+    projectId: "first-try-d42dd",
+    storageBucket: "first-try-d42dd.appspot.com",
+    messagingSenderId: "894181046263"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</head>
+<body>
+  <header>
+  	<div id="logo">
+  		<img id="im" src="img/image1.png">
+  		<h1><a href="index1.html"> DREAMER </a></h1>
+  		<p> Украшения ручной работы </p>
+  	</div>
+  	<div id="login">
+    	<form class="form-4" name ="register">
+        	<h1>Форма входа</h1>
+        	<p>
+           	<label for="login">Логин или email</label>
+           	<input type="login" name="login" placeholder="Логин или email" required>
+        	</p>
+        	<p>
+            	<label for="password">Пароль</label>
+            	<input type="password" name='password' placeholder="Пароль" required>
+        	</p>
+
+        	<p>
+            	<input type="submit" name="submit" value="Продолжить">
+        	</p>
+    	</form>
+    </div>
+    <script src="code.js"></script>
+  </body>
+  </html>
